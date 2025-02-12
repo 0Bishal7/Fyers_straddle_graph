@@ -128,7 +128,7 @@ class StraddleConsumer(AsyncWebsocketConsumer):
                 }))
 
                
-                await asyncio.sleep(1)
+                await asyncio.sleep(30)
 
 
             except Exception as e:
